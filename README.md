@@ -2,7 +2,7 @@
 
 ```bash
 grunt watch
-coffee -wbo app/scripts src/*.coffee
+cjsx -wbo app/scripts src/*.coffee
 ```
 
 ## To deploy:

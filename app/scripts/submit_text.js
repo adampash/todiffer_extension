@@ -3,7 +3,7 @@ var DiffSubmitter, Header, LOADER, ResultText, Selectable, TO_DIFFER_API, TXT_FE
 
 TXT_FETCH_API = "https://text-fetch.herokuapp.com";
 
-TO_DIFFER_API = "//localhost:3000/texts";
+TO_DIFFER_API = "https://todiffer.herokuapp.com/texts";
 
 LOADER = chrome.extension.getURL("images/loader.gif");
 

@@ -79,4 +79,5 @@
 .mouseOn {
   background: #bcd5eb !important;
   outline: 2px solid #5166bb !important;
+  cursor: default;
 }
