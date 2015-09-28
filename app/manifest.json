@@ -11,6 +11,9 @@
   "background": {
     "scripts": [
       "scripts/chromereload.js",
+      "scripts/jquery.min.js",
+      "scripts/react.js",
+      "scripts/submit_text.js",
       "scripts/background.js"
     ]
   },
