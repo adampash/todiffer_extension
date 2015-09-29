@@ -213,18 +213,18 @@ module.exports = function (grunt) {
     //     }
     //   }
     // },
-    // uglify: {
-    //   dist: {
-    //     files: {
-    //       '<%= config.dist %>/scripts/scripts.js': [
-    //         '<%= config.dist %>/scripts/scripts.js'
-    //       ]
-    //     }
-    //   }
-    // },
-    // concat: {
-    //   dist: {}
-    // },
+    uglify: {
+      dist: {
+        files: {
+          '<%= config.dist %>/scripts/scripts.js': [
+            '<%= config.dist %>/scripts/scripts.js'
+          ]
+        }
+      }
+    },
+    concat: {
+      dist: {}
+    },
 
     // Copies remaining files to places other tasks can use
     copy: {
@@ -239,6 +239,7 @@ module.exports = function (grunt) {
             'images/{,*/}*.{webp,gif}',
             '{,*/}*.html',
             'styles/{,*/}*.css',
+            'scripts/{,*/}*.js',
             'styles/fonts/{,*/}*.*',
             '_locales/{,*/}*.json',
           ]
